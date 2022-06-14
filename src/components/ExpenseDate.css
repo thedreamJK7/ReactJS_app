@@ -1,0 +1,27 @@
+.ExpenseDate {
+    border: 2px solid white;
+    width: 250px;
+    border-radius: 20px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.ExpenseDate_month {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.ExpenseDate_day {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.ExpenseDate_year {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
