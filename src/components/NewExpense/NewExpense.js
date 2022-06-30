@@ -4,6 +4,7 @@ const NewExpense = (props) => {
     const expenseHandler = (expenseDate) => {
       const newexpense = {
         ...expenseDate,
+        id: Math.random().toString()
       };
       props.onAddExpense(newexpense);
     };
